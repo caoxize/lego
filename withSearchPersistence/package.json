@@ -1,0 +1,36 @@
+{
+  "name": "@ether/withSearchPersistence",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c"
+  },
+  "keywords": [],
+  "author": "caowei",
+  "license": "ISC",
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "core-js": "^3.6.5",
+    "eslint": "^6.8.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rollup": "^2.8.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.3.0"
+  }
+}
