@@ -31,10 +31,10 @@ const withSearchPersistence = ({
         setTimeout(() => {
           if (searchFieldsType === 'form') {
             this.$component.props.form.setFieldsValue(state[saveKey]);
-            setTimeout(this.search, 0);
+            setTimeout(this.search, 500);
           } else {
             this.$component.setState(state[saveKey], () => {
-              setTimeout(this.search, 0);
+              setTimeout(this.search, 500);
             });
           }
         }, 0);
