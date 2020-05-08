@@ -1,6 +1,6 @@
 {
   "name": "ether-withsearchpersistence",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "搜索持久化",
   "main": "lib/bundle.js",
   "scripts": {
